@@ -15,4 +15,18 @@ Aby wyszukać wszystkich Piastów możemy wpisać komendę <code>piast(X,Y).</co
 Używając tego pliku możemy wyszukać rodziców lub dzieci danego piasta służy do tego komenda <code>parent(X,Y).</code></br>
 Za <b>X</b> należy wstawić piasta, którego dzieci poszukujemy, lub za <b>Y</b> piasta, którego rodzica szukamy.
 
-Możemy znaleźć dziadka lub wnuka, aby poszukać dziadka należy użyć komendy:</br> <code>grand_parent(X,Y). </code> następnie wpisujemy za X osobę, której dziadka poszukujemy,</br> aby wyszukać wnuka należy użyć komendy:</br> <code>grand_child(X, Y). </code> następnie za Y osobę, której wnuków poszukujemy.
+Możemy znaleźć dziadka lub wnuka, aby poszukać dziadka należy użyć komendy:</br> <code>grand_parent(X,Y). </code> następnie wpisujemy za X osobę, której dziadka poszukujemy,</br> aby wyszukać wnuka należy użyć komendy:</br> <code>grand_child(X, Y). </code> następnie za Y osobę, której wnuków poszukujemy./br></br>
+
+</br></br>
+<b> dynamic_programming.ipynb </b></br></br>
+<b>Zadanie 1</b> </br>
+<b>1. Jaki wpływ na jakość znalezienia drogi do frisbee ma wartość gamma? </br> </b>
+Większa wartość gamma pozwala na wyszukanie lepszej jakości drogi.
+
+<b>2.	Czym różnią się metody policy_iteration oraz value_iteration?</b>
+Policy iteration jest bardziej złożonym algorytmem rozpoczyna się od losowej strategi, działa szybciej w porównaianiu do konkuretnta dzięki czemu przy większych obliczeniach będzie dla nas tanszy. Value iteration rozpoczuna działanie od funckji liczby losowej, mimo tego że jest prostszy to jest wolniejszy oraz droższy do obliczeń, wymaga większej ilości iteracji.
+
+
+<b>3.	Dlaczego value_iteration znajduje lepszą drogę niż policy_iteration</b>
+Ponieważ ze względu na wymóg większej ilości iteracji za każym przebiegiem wartość kolejnego stano zmienia wartości na dopiwednio wyższe dzięki czemu skrypt może wybrać najlepszą drogę.
+
