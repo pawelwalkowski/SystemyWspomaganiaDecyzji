@@ -7,6 +7,10 @@ komenda zwróci pijących razem z jednego naczynia aby sprawdzić kto pide razem
 </br></br>
 <b>Obrazek drugi (plik czterej_pancerni):</b></br></br>
 Aby odczytać cały napis na obrazku należy użyć komendy <code>fulltitle(A,B,C). </code> system zwróci nam tytuł wraz z autorem dzieła na podstawie, którego powstał film. Możemy również sprawdzić załogę w kolejności występowania na obrazku, do tego posłuży komenda crew(A,B,C,D,E). </code>. Aby sprawdzić tytuł należy użyć komendy <code> title<X>. </code>, autora <code> author(X). </code> baze filmu <code> basedon(X).</code>
+</br></br>
+<b>Obrazek trzeci (plik rodzina_krolewska):</b></br></br>  
+Aby sprawdzić płeć osoby należy użyć komendy <code>human(A,B).</code> system zwróci wszystkie osoby i ich płeć. Możemy również sprawdzić grupę wiekową osób komendą <cod>howOld(A,B).</code> Aby sprawdzić czy postać ma kapelusz, należy użyc komendy <code>hasHat(A).</code>, komenda <code>hasOrder(A).<code> zwróci postacie, które mają przypięte ordery, <code>hasDress(A).</code> zwróci osoby w sukienkach, <code>hasSuit(A).</code> w garniturach, <code>hasUniform(A).</code> w mundurach, isQueen(A).</code> zwróci królową, <code>isChild(A).</code> zwróci dzieci, a <code>sameSex(A,B).<code> porówna płcie dwóch osób.
+Będzie?
 
 <b>Dynastia Pierwsza (plik dynastia1):</b></br></br>
 Należy pamiętać aby umieścić imię osoby pomiędzy znakami <b>' '</b> </br>
