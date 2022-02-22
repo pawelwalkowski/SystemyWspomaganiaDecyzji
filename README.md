@@ -21,7 +21,7 @@ Za <b>X</b> należy wstawić piasta, którego dzieci poszukujemy, lub za <b>Y</b
 Możemy znaleźć dziadka lub wnuka, aby poszukać dziadka należy użyć komendy:</br> <code>grand_parent(X,Y). </code> następnie wpisujemy za X osobę, której dziadka poszukujemy,</br> aby wyszukać wnuka należy użyć komendy:</br> <code>grand_child(X, Y). </code> następnie za Y osobę, której wnuków poszukujemy./br></br>
 
 </br></br>
-<b> dynamic_programming.ipynb </b></br></br>
+<b> Programowanie dyanamiczne </b></br></br>
 <b>Zadanie 1</b> </br>
 <b>1. Jaki wpływ na jakość znalezienia drogi do frisbee ma wartość gamma? </br> </b>
 Większa wartość gamma pozwala na wyszukanie lepszej jakości drogi.
