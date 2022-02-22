@@ -30,3 +30,14 @@ Policy iteration jest bardziej złożonym algorytmem rozpoczyna się od losowej 
 <b>3.	Dlaczego value_iteration znajduje lepszą drogę niż policy_iteration</b>
 Ponieważ ze względu na wymóg większej ilości iteracji za każym przebiegiem wartość kolejnego stano zmienia wartości na dopiwednio wyższe dzięki czemu skrypt może wybrać najlepszą drogę.
 
+<b>Zadanie 2</b></br>
+Wykonać to samo ćwiczenie co w zadaniu 1 ale dla jeziora o rozmiarze 10 x 10 i wartościach gamma [0, 0.2, 0.4, 0.6, 0.8, 1] oraz włączonym poślizgu na lodzie.</br>
+<b>1. Jak poślizg na lodzie ma wpływ na skomplikowanie trasy</b></br>
+Przy włączonych poślizgach skrypt zaczyna wyszukiwać droge w sposób niezrozumiały oraz mogący wydawać się bardzo dziwny, jednak robi to skutecznie.</br>
+<b>2. Czy wartość gamma ma wpływ na skomplikowanie trasy, a jeżeli tak, to jakie.</b></br>
+Wartość gamma ma wpłyt na obliczaną nagrodę - zdobywaną za "osiągnięcie" kolejnego stanu.</br></br>
+<b>Zadanie 3</b></br>
+Wykonać to samo ćwiczenie co w zadaniu 1 ale dla jeziora o rozmiarze 8 x 8 i wartościach gamma [0, 0.2, 0.4, 0.6, 0.8, 1].
+Sprawdzić działanie metody value_iteration_2 na samym dole.
+
+Czym się różni metoda value_iteration od value_iteration_2?
