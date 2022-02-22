@@ -1,10 +1,15 @@
 # SystemyWspomaganiaDecyzji
+<b>Obrazek pierwszy (plik friends):</b></br></br>
+Aby odczytać cały napis z obrazka należy użyć komendy <code> title(A,B,C,D,E,F,G).</code></br>
+za dowolną zmienną - dużą literę w komendzie możemy wstawić literę żeby sprawdzić czy występuje w danym miejscu - trzeba pamiętać o umieszczeniu poszukiwanej litery pomiędzy znakami <b>' '</b> </br> jeżeli trafiliśmy to system pokaże resztę liter z tytułu, jeżeli nie system zwróci "false".</br></br></br>
+Możemy również sprawdzić kto pije z jednego naczynia - służy do tego komenda <code>ice(A,B,C).</code></br>
+komenda zwróci pijących razem z jednego naczynia aby sprawdzić kto pide razem z drugiego użyj średnika. Wstawiając imię w <b>''</b> zamiast zmiennej A,B lub C możemy sprawdzić z kim pije nasz bohater i czy siedzi w określonym przez nas miejscu. 
 
-<b>Dynastia Pierwsza(plik dynastia1):</b></br></br>
-Nalezy pamiętać aby umieścić imię osoby pomiędzy znakami <b>' '</b> </br>
-Jeżeli oczekujemy wiecej niż jednego wyniku nalezy kolejne wywoływac średnikiem</br>
-Aby wyszukać wszytskich piastów możemy wpisac komendę <code>piast(X,Y).</code></br> Wyszukiwanie konkretmego piasta polega na zmianie <b>X</b>,a paista, który zmarł w danym roku na zmianie <b>Y</b> na rok którego poszukujemy. 
-Uzywając tego pliku możemy wyszukać rodziców lub dzieci danego piasta służy do tego komeda <code>parent(X,Y).</code></br>
-Za <b>X</b> nalezy wstawić piasta, któego dzieci poszukujemy, lub za <b>Y</b> piasta, którego rodzica szukamy.
+<b>Dynastia Pierwsza (plik dynastia1):</b></br></br>
+Należy pamiętać aby umieścić imię osoby pomiędzy znakami <b>' '</b> </br>
+Jeżeli oczekujemy więcej niż jednego wyniku należy kolejne wywoływać średnikiem</br>
+Aby wyszukać wszystkich Piastów możemy wpisać komendę <code>piast(X,Y).</code></br> Wyszukiwanie konkretnego piasta polega na zmianie <b>X</b>,a piasta, który zmarł w danym roku na zmianie <b>Y</b> na rok którego poszukujemy. 
+Używając tego pliku możemy wyszukać rodziców lub dzieci danego piasta służy do tego komenda <code>parent(X,Y).</code></br>
+Za <b>X</b> należy wstawić piasta, którego dzieci poszukujemy, lub za <b>Y</b> piasta, którego rodzica szukamy.
 
-Możemy znaleźć dziadka lub wnuka, aby poszukać dziadka należy użyć komendy:</br> <code>grand_parent(X,Y). </code> następnie wpisujemy za X osobę, której dziadka poszukujemy,</br> aby wyszukac wnuka należy użyć komendy:</br> <code>grand_child(X, Y). </code> następnie za Y osobę, której wnuków poszukujemy. 
+Możemy znaleźć dziadka lub wnuka, aby poszukać dziadka należy użyć komendy:</br> <code>grand_parent(X,Y). </code> następnie wpisujemy za X osobę, której dziadka poszukujemy,</br> aby wyszukać wnuka należy użyć komendy:</br> <code>grand_child(X, Y). </code> następnie za Y osobę, której wnuków poszukujemy.
