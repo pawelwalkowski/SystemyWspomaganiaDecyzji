@@ -1,10 +1,10 @@
-piast_1('Kazimierz II Sprawiedliwy',1194).
-piast_2('Leszek Bia³y',1227).
-piast_3('Konrad I Mazowiecki', 1247).
+piast('Kazimierz II Sprawiedliwy',1194).
+piast('Leszek Bia³y',1227).
+piast('Konrad I Mazowiecki', 1247).
 parent('Kazimierz II Sprawiedliwy','Leszek Bia³y').
 parent('Kazimierz II Sprawiedliwy','Konrad I Mazowiecki').
-piast_4('Boles³aw', 1248).
-piast_5('Kazimierz I',1267).
+piast('Boles³aw', 1248).
+piast('Kazimierz I',1267).
 piast_6('Siemowit',1262).
 parent('Konrad I Mazowiecki','Boleslaw').
 parent('Konrad I Mazowiecki','Kazimierz I').
