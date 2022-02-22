@@ -39,5 +39,5 @@ Wartość gamma ma wpłyt na obliczaną nagrodę - zdobywaną za "osiągnięcie"
 <b>Zadanie 3</b></br>
 Wykonać to samo ćwiczenie co w zadaniu 1 ale dla jeziora o rozmiarze 8 x 8 i wartościach gamma [0, 0.2, 0.4, 0.6, 0.8, 1].
 Sprawdzić działanie metody value_iteration_2 na samym dole.
-Czym się różni metoda value_iteration od value_iteration_2?</br>
-w value_iteration_2 występują dodatkowe obliczenia co wpływa na skomplikowanie i czas ich trwania oraz na wybieraną optymalną trasę.
+Czym się różni metoda value_iteration od value_iteration_2?</br></br>
+W value_iteration_2 występują dodatkowe obliczenia co wpływa na skomplikowanie i czas ich trwania oraz na nagrody przez co również na wybieraną optymalną trasę.
