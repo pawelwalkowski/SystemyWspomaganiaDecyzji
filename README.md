@@ -21,24 +21,25 @@ Za <b>X</b> należy wstawić piasta, którego dzieci poszukujemy, lub za <b>Y</b
 Możemy znaleźć dziadka lub wnuka, aby poszukać dziadka należy użyć komendy:</br> <code>grand_parent(X,Y). </code> następnie wpisujemy za X osobę, której dziadka poszukujemy,</br> aby wyszukać wnuka należy użyć komendy:</br> <code>grand_child(X, Y). </code> następnie za Y osobę, której wnuków poszukujemy./br></br>
 
 </br></br>
-<b> Programowanie dyanamiczne </b></br></br>
+<b> Programowanie dynamiczne </b></br></br>
 <b>Zadanie 1</b> </br>
 <b>1. Jaki wpływ na jakość znalezienia drogi do frisbee ma wartość gamma? </br> </b>
 Większa wartość gamma pozwala na wyszukanie lepszej jakości drogi.
 
 <b>2.	Czym różnią się metody policy_iteration oraz value_iteration?</b>
-Policy iteration jest bardziej złożonym algorytmem rozpoczyna się od losowej strategi, działa szybciej w porównaianiu do konkuretnta dzięki czemu przy większych obliczeniach będzie dla nas tanszy. Value iteration rozpoczuna działanie od funckji liczby losowej, mimo tego że jest prostszy to jest wolniejszy oraz droższy do obliczeń, wymaga większej ilości iteracji.
+Policy iteration jest bardziej złożonym algorytmem rozpoczyna się od losowej strategii, działa szybciej w porównaniu do konkurenta dzięki czemu przy większych obliczeniach będzie dla nas tańszy. Value iteration rozpoczyna działanie od funkcji liczby losowej, mimo tego że jest prostszy to jest wolniejszy oraz droższy do obliczeń, wymaga większej ilości iteracji.
 
 
 <b>3.	Dlaczego value_iteration znajduje lepszą drogę niż policy_iteration</b>
-Ponieważ ze względu na wymóg większej ilości iteracji za każym przebiegiem wartość kolejnego stano zmienia wartości na dopiwednio wyższe dzięki czemu skrypt może wybrać najlepszą drogę.
+Ponieważ ze względu na wymóg większej ilości iteracji za każdym przebiegiem wartość kolejnego stano zmienia wartości na odpowiednio wyższe dzięki czemu skrypt może wybrać najlepszą drogę.
+
 
 <b>Zadanie 2</b></br>
 Wykonać to samo ćwiczenie co w zadaniu 1 ale dla jeziora o rozmiarze 10 x 10 i wartościach gamma [0, 0.2, 0.4, 0.6, 0.8, 1] oraz włączonym poślizgu na lodzie.</br>
 <b>1. Jak poślizg na lodzie ma wpływ na skomplikowanie trasy</b></br>
-Przy włączonych poślizgach skrypt zaczyna wyszukiwać droge w sposób niezrozumiały oraz mogący wydawać się bardzo dziwny, jednak robi to skutecznie.</br>
+Przy włączonych poślizgach skrypt zaczyna wyszukiwać drogę w sposób niezrozumiały oraz mogący wydawać się bardzo dziwny, jednak robi to skutecznie.</br>
 <b>2. Czy wartość gamma ma wpływ na skomplikowanie trasy, a jeżeli tak, to jakie.</b></br>
-Wartość gamma ma wpłyt na obliczaną nagrodę - zdobywaną za "osiągnięcie" kolejnego stanu.</br></br>
+Wartość gamma ma wpływ na obliczaną nagrodę - zdobywaną za "osiągnięcie" kolejnego stanu.</br></br>
 <b>Zadanie 3</b></br>
 Wykonać to samo ćwiczenie co w zadaniu 1 ale dla jeziora o rozmiarze 8 x 8 i wartościach gamma [0, 0.2, 0.4, 0.6, 0.8, 1].
 Sprawdzić działanie metody value_iteration_2 na samym dole.
